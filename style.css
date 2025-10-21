@@ -31,7 +31,7 @@ main{
 button{
     background-color: lightgreen;
     color:mediumseagreen;
-    border: nome;
+    border: none;
     padding: 8px 12px;
     border-radius: 5px;
 }
@@ -39,7 +39,8 @@ button:hover{
     background-color: yellowgreen;
 }
 #lista-carrinho{
-    list-style: nome;padding: 0;
+    list-style: none;
+    padding: 0;
 }
 #lista-carrinhos li{
     display: flex;
